@@ -61,7 +61,7 @@ body{
    font-family: var(--fonte-padrao);
 font-family: var(--fonte-android);
 padding-bottom: 20px;
-line-height: 1em;
+line-height: 1.2em;
 }
 a.externo::after {
   content: '\1F517\00A0'
