@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e2d2; /* Cor de fundo suave */
+    color: #444; /* Cor de texto padrão */
+  }
+  
+  header {
+    background-color: #ffb6c1; /* Rosa claro */
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff; /* Texto branco para contrastar */
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .about-me, .hobbies {
+    background-color: #fff; /* Fundo branco para as seções */
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .about-me h2, .hobbies h2 {
+    color: #ff69b4; /* Rosa mais forte para cabeçalhos */
+  }
+  
+  .hobbies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hobbies li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc; /* Linhas divisoras */
+  }
+  
+  footer {
+    background-color: #ffb6c1; /* Rosa claro */
+    text-align: center;
+    padding: 1rem;
+    color: #fff; /* Texto branco para contrastar */
+  }
+  p{
+    color: #444;
+  }
+  h1{
+    color: #838080;
+  }
+  ul.ola{
+    text-decoration: solid brown ;
+    
+  }

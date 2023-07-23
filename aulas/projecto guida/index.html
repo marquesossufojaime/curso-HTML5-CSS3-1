@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site da Menina Baixinha</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Olá, sou uma Menina Baixinha!</h1>
+  </header>
+  <main>
+    <section class="about-me">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Eu sou uma menina baixinha muito feliz e adoro cores suaves e tons pastel. Gosto de brincar, aprender coisas novas e, é claro, me divertir muito!</p>
+    </section>
+    <section class="hobbies">
+      <h2>Meus Hobbies</h2>
+      <ul class="ola">
+        <li>Ler livros</li>
+        <li>Ver filmes</li>
+        <li>Dormir</li>
+        <li>Escutar musicas</li>
+        <h1>Frases para subir seu autoestima </h1>
+        
+            <li>Você é a prova de que as melhores coisas vêm em pequenos pacotes!</li>
+            
+            <li>Quando Deus te fez, ele caprichou na fofura!</li>
+            
+            <li>Seu sorriso é como você: pequeno, mas ilumina o mundo todo!</li>
+            
+            <li>Você é como um cupcake: pequenininha, doce e irresistível!</li>
+            
+            <li>Tamanho não importa, mas sua simpatia é gigante!</li>
+            
+            
+            <li>Não importa a altura, você é uma estrela brilhante!</li>
+      </ul>
+      <h1>Sua muisica favorita 23/07/2023</h1>
+      <audio id="audioPlayer" controls>
+        <source src="musica/Omah_Lay_-_Reason.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+      <button onclick="playAudio()">Play</button>
+      <button onclick="pauseAudio()">Pause</button>
+      <button onclick="fazerPergunta()">Fazer uma pergunta</button>
+    
+      <script>
+        const audioPlayer = document.getElementById("audioPlayer");
+    
+        function playAudio() {
+          audioPlayer.play();
+        }
+    
+        function pauseAudio() {
+          audioPlayer.pause();
+        }
+        function fazerPergunta() {
+      const respostaCorreta = "Guida"; // Resposta correta que você deseja
+
+      // Função para verificar a resposta
+      function verificarResposta(resposta) {
+        if (resposta.toLowerCase() === respostaCorreta.toLowerCase()) {
+          mostrarNotificacao("Resposta correta! Parabéns Guida!");
+        } else {
+          mostrarNotificacao("Resposta incorreta. Tente novamente! Guida");
+          fazerPergunta(); // Repete a pergunta
+        }
+      }
+
+      const respostaUsuario = prompt("Qual é seu nome ?");
+
+      verificarResposta(respostaUsuario);
+    }
+
+    function mostrarNotificacao(mensagem) {"ola guida"
+      // Código para exibir uma notificação ao seu agrado (pode ser alert, toast, etc.)
+      alert(mensagem);
+    }
+      </script>
+    </section>
+   
+  </main>
+  <footer>
+    <p>© 2023 Menina Baixinha. Todos os direitos reservados.</p><p><i>creat by marques L.s ossufo jaime</i></p>
+  </footer>
+</body>
+</html>
