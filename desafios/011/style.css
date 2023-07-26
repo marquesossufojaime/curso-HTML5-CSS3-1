@@ -14,7 +14,7 @@
 html, body{
 
     min-height: 100vh;
-    background-color: darkgray;
+   /** background-color: darkgray;**/
     font-family: var(--fonte1);
 }
 header{
@@ -69,4 +69,17 @@ section{
 section.imagen> p{
     background-color: black;;
     width: 400px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+section> p {
+    padding-bottom: 2em;
+}
+section#img01{
+background-image: url(imagens/background001.jpg);
+background-position: right;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+
 }
